@@ -2,15 +2,11 @@
    "name": "car-rental-system",
    "version": "1.0.0",
    "description": "car rental system using mern stack tech",
-   "main": "server.js",
+   "main": "index.js",
    "type": "module",
    "scripts": {
-      "start": "node server.js",
-      "server": "nodemon server.js",
-      "client": "npm run dev --prefix client",
-      "dev": "concurrently \"npm run server\" \"npm run client\"",
-      "build": "npm install && npm install --prefix client && npm run build --prefix client",
-      "generate-toc": "markdown-toc -i readme.md"
+      "start": "node index.js",
+      "server": "nodemon index.js"
    },
    "keywords": [
       "car-rental",
